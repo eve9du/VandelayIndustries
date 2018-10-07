@@ -1,0 +1,74 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+.Information{
+  text-align: center;
+  margin-bottom:5%;
+  font-family: 'Merriweather', serif;
+}
+.Countries {
+  border-radius: 100%;
+  height:100%;
+  width:15%;
+  text-align: left;
+  padding:0;
+  margin:0;
+  float:left;
+}
+.clickInfo{
+  font-family: 'Merriweather', serif;
+  margin-top:15%;
+  font-size: 150%;
+  position:absolute;
+  left:37%
+}
+.Individual{
+  height:20%;
+  text-align:center;
+  padding: 4% 0 4% 0;
+  margin:0;
+  cursor: pointer;
+}
+.Individual:hover[style]{
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.12), 
+      rgba(0, 0, 0, 0.12));
+}
+.Individual:active[style]{
+ text-decoration: underline;
+}
+.Data{
+  width:80%;
+  margin-left: 20%;
+}
+.gradient{
+  position:absolute;
+  right:37%;
+  width:19.5%;
+  display: inline-block;
+  text-align:center;
+}
+.eachColor{
+  width:20px;
+  float:left;
+  text-align:center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
